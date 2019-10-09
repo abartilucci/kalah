@@ -75,13 +75,16 @@
 ## L'interfaccia Player
 
   - _public void start(boolean isFirst);_
+  
   Comunica al giocatore, all'inizio di ciascuna partita, se gioca per primo (ovvero se è il giocatore A)
   
   - _public int move();_
+  
   Restituisce indice di propria conca da cui prelevare e distribuire le pietre
   Conche numerate da 0 a 5 in senso antiorario. Conca non deve essere vuota
   
   - _public void tellMove(int move);_
+  
   Comunica mossa dell’avversario, stesse specifiche di move
 
 ## Il giocatore
